@@ -7,4 +7,4 @@ docker build --tag=mahmoudrashwan001/sklearn-ml-app .
 docker image ls
 
 # Step 3: 
-docker run -t -p 8000:80 sklearn-ml-app
+docker run -t -p 8000:80 mahmoudrashwan001/sklearn-ml-app
