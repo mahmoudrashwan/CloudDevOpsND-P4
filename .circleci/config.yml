@@ -7,7 +7,7 @@ jobs:
   build:
     docker:
     # Use the same Docker base as the project
-      - image: python:3.7.7-slim-stretch
+      - image: python:3.7.3-stretch
 
     working_directory: ~/repo
 
@@ -24,7 +24,6 @@ jobs:
       - run:
           name: install dependencies
           command: |
-            apt-get install -y build-essential
             python3 -m venv ~/.venv
             . ~/.venv/bin/activate
             make install
