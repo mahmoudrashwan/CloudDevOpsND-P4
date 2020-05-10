@@ -1,4 +1,4 @@
-FROM python:slim
+FROM python:3.7.7-slim-stretch
 
 ## Step 1:
 WORKDIR /app/
